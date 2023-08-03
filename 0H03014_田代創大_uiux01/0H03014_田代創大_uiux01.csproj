@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{03957533-5B0A-4DF3-9102-ACBA71307F19}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>_0H03014_田代創大_uiux01</RootNamespace>
+    <AssemblyName>0H03014_田代創大_uiux01</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\黄丸.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\黒丸.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\黒丸1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\黒丸2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aka.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kuro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\はる.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\チューリップ赤.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\さくら.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\チューリップ黄.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\バラ赤.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\ユリ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\ひまわり.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\ダリア.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\すずらん2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\すずらん3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\すずらん31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\すずらん4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ダリア.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ダリア1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ガーベラ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\シクラメン.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ポインセチア.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\シンビジウム.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\フリージア.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\フリージア1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\春.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\富士春1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\富士春.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\夏.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\夏1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\夏風景.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\秋.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\秋1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\秋風景.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\冬.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\海.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_c_choju64_0019_s512_choju64_0019_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_c_choju64_0019_s512_choju64_0019_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_c_choju64_0020_s512_choju64_0020_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uketuke.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uketuke1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
